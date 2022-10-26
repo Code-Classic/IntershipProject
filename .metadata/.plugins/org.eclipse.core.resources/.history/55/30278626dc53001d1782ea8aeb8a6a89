@@ -1,0 +1,35 @@
+package com.code.insurancems.entity;
+
+import java.time.LocalDate;
+
+public class Customer {
+	private Long id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private LocalDate dateOfBirth;
+	private String contactNumber;
+	private String uniqueIdNumber;
+	private Insurance insurance;
+	
+	
+	public Customer(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth,
+			String contactNumber, String uniqueIdNumber, Insurance insurance) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.dateOfBirth = dateOfBirth;
+		this.contactNumber = contactNumber;
+		this.uniqueIdNumber = uniqueIdNumber;
+		this.insurance = insurance;
+	}
+
+
+	public Customer() {}
+	
+	
+	
+	
+}

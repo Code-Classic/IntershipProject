@@ -1,0 +1,10 @@
+1666633811731	Delete element
+1666633889820	Rename type 'CarInsurance'
+1666633905828	Rename type 'HealthInsurance'
+1666633916857	Rename type 'HomeInsurance'
+1666637646174	Delete elements
+1666639147347	Delete element
+1666642560972	Delete element
+1666645225029	Encapsulate field 'inAmount'
+1666645229989	Encapsulate field 'inDuration'
+1666645753631	Rename field 'inAmount'

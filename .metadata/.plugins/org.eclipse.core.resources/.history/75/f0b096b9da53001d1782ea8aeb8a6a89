@@ -1,0 +1,9 @@
+package com.code.insurancems.entity;
+
+public class Insurance {
+	private Long inId;
+	private String inName;
+	private String inLevel;
+	private Customer customer;
+
+}

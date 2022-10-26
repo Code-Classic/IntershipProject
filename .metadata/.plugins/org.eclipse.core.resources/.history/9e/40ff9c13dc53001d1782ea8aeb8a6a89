@@ -1,0 +1,14 @@
+package com.code.insurancems.entity;
+
+import java.time.LocalDate;
+
+public class Customer {
+	private Long id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private LocalDate dateOfBirth;
+	private String contactNumber;
+	private String uniqueIdNumber;
+	private Insurance insurance;
+}

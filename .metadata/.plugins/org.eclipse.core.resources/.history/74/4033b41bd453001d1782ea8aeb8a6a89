@@ -1,0 +1,5 @@
+package com.code.insurancems.entity;
+
+public class Insurance {
+
+}
